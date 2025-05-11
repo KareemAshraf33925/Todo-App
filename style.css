@@ -126,3 +126,21 @@ body{
   
 }
 
+/* width 800-768 */
+@media(min-width:768px) and (max-width:800px){
+    .todo-container {
+        width: 730px;
+    }
+    .tasks-status {
+        width: 730px;
+    }
+}
+/* width 428-320 */
+@media(min-width:320px) and (max-width:428px){
+    .todo-container {
+        width: 310px;
+    }
+    .tasks-status {
+        width: 310px;
+    }
+}
